@@ -1,7 +1,7 @@
 {
-  "name": "nativescript-dev-jade",
+  "name": "nativescript-dev-pug",
   "version": "0.0.6",
-  "description": "Jade support for NativeScript projects.",
+  "description": "Pug support for NativeScript with Angular.",
   "scripts": {
     "test": "exit 0",
     "postinstall": "node postinstall.js",
@@ -19,11 +19,11 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NativeScript/nativescript-dev-jade.git"
+    "url": "https://github.com/s1300045/nativescript-dev-jade.git"
   },
   "dependencies": {
-    "jade": "*",
     "glob": "*",
-    "nativescript-hook": "^0.2.0"
+    "nativescript-hook": "^0.2.0",
+    "pug": "^2.0.0-rc.2"
   }
 }

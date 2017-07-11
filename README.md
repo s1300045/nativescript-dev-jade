@@ -1,30 +1,27 @@
-Jade support for NativeScript projects.
+Pug support for NativeScript projects.
 =======================================
 
 How to use
 ----------
 ```
-$ tns install jade
+$ tns install pug
 ```
 
-The above command installs this module and installs the necessary hooks. Jade processing of all `.jade` files inside `app` folder happens when the project is prepared for build.
+The above command installs this module and installs the necessary hooks. Pug processing of all `.pug` files inside `app` folder happens when the project is prepared for build.
 
 Example:
-```Jade
-Page(xmlns="http://schemas.nativescript.org/tns.xsd")
-  StackLayout
+```Pug
+StackLayout
     Label(text="This is Label")
     Button(text="This is Button")
 ```
 
 Result:
 ```XML
-<Page xmlns="http://schemas.nativescript.org/tns.xsd">
-  <StackLayout>
+<StackLayout>
     <Label text="This is Label"></Label>
     <Button text="This is Button"></Button>
-  </StackLayout>
-</Page>
+</StackLayout>
 ```
 
-More info at http://jade-lang.com/.
+More info at https://pugjs.org.
