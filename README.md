@@ -1,4 +1,4 @@
-Pug support for NativeScript projects.
+Pug support for NativeScript with Angular projects.
 =======================================
 
 How to use
