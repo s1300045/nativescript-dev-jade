@@ -13,6 +13,16 @@
         "type": "before-prepare",
         "script": "lib/before-prepare.js",
         "inject": true
+      },
+      {
+        "type": "after-prepare",
+        "script": "lib/after-prepare.js",
+        "inject": true
+      },
+      {
+        "type": "before-watch",
+        "script": "lib/watch.js",
+        "inject": true
       }
     ]
   },
@@ -22,6 +32,7 @@
     "url": "https://github.com/s1300045/nativescript-dev-jade.git"
   },
   "dependencies": {
+    "bluebird": "^3.4.6",
     "glob": "*",
     "nativescript-hook": "^0.2.0",
     "pug": "^2.0.0-rc.2"
