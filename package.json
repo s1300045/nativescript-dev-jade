@@ -29,7 +29,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/s1300045/nativescript-dev-jade.git"
+    "url": "https://github.com/s1300045/nativescript-dev-pug.git"
   },
   "dependencies": {
     "bluebird": "^3.4.6",
