@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "bluebird": "^3.4.6",
+    "chokidar": "^1.7.0",
     "glob": "*",
     "nativescript-hook": "^0.2.0",
     "pug": "^2.0.0-rc.2"
