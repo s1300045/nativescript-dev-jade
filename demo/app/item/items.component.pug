@@ -1,0 +1,14 @@
+ActionBar.action-bar(
+    title="My App"
+)
+StackLayout.page
+    ListView.list-group(
+        '[items]'="items"
+    )
+        ng-template(
+            let-item="item"
+        )
+            Label.list-group-item(
+                '[nsRouterLink]'="['/item', item.id]"
+                '[text]'="item.name"
+            )

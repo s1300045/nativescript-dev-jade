@@ -1,0 +1,19 @@
+npm-debug.log
+.DS_Store
+
+*.js.map
+app/**/*.html
+app/**/*.js
+hooks/
+lib/
+node_modules/
+platforms/
+tmp/
+typings/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

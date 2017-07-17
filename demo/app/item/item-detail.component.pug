@@ -1,0 +1,16 @@
+ActionBar.action-bar(
+    title="Details"
+)
+FlexboxLayout.page(
+    flexDirection="column"
+)
+    FlexboxLayout.m-15
+        Label.h2(
+            '[text]'="item.id + '. '"
+        )
+        Label.h2(
+            [text]="item.name"
+        )
+    Label.h4(
+        '[text]'="item.role"
+    )
