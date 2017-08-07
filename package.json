@@ -2,8 +2,14 @@
   "name": "nativescript-dev-pug",
   "version": "0.5.0",
   "description": "Pug support for NativeScript with Angular.",
+  "keywords": [
+    "NativeScript",
+    "pug",
+    "pugjs",
+    "jade",
+    "jadelang"
+  ],
   "scripts": {
-    "test": "exit 0",
     "postinstall": "node postinstall.js",
     "preuninstall": "node preuninstall.js"
   },
